@@ -1,11 +1,129 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    width: 99%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
-.form h1{
-    color:#1498FD;
+* {
+    font-family: 'SF Pro Display';
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 86, 214);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.anglais {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 40px;
+    width: 60px;
+    height: 40px;
+    right: 90px;
+    top: 35px;
+    margin-top:-17px;
+
+}
+
+#logo {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 0px;
+    left: 0px;
+    background-color: #F5F5F5;
+}
+
+#droite {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.navbar {
+    position: relative;
+    padding: 40px;
+    background-color: #1498FD;
+    top: -2px;
+    left:0 px;
+    height:31px;
+    width:1245px;
+
+}
+
+#droite button {
+    margin-left: 20px;
+}
+
+.espaceM,
+.deconnexion,
+.validation {
+    border: 0;
+    font-weight: 300;
+    border-radius: 30px;
+    padding: 10px 35px;
+    color: white;
+    height: 40px;
+    margin-top: -17px;
+}
+
+.deconnexion {
+    background-color: #E62E2E;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.espaceM {
+    background-color: #007BFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
 
-    /* Style the form */
+
+
+
+.form h1{
+    color:#1498FD;
+    font-family: 'SF Pro Display';
+    text-align: center;
+    width:99%;
+    margin-top: 4%;
+    margin-bottom: -15%;
+    padding: 0px;
+    border:0px;
+    font-size: xx-large;
+}
+ /* Style the form */
 body form {
     position: center;
     width: 50%;
@@ -18,11 +136,18 @@ body form {
     border-radius: 5px;
     background-color:#1498FD;
 }
-h1 {
-    color: black;
+h2{
+    margin-top: -3px;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-size: inherit;
+    vertical-align: baseline;
+    width: 99%;
+    margin-bottom: 35px;
+    font-size: x-large;
     text-align: center;
-    margin-bottom: -190px;
-    margin-top: 210px;
 }
 label{
     margin-left: -76px;
@@ -53,3 +178,43 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+
+
+
+
+
+footer {
+    background-color: #d9d9d9;
+    color: white;
+    padding: 20px;
+    height: 100px;
+    margin-top: 100px;
+    line-height: 50px;
+}
+
+/* Style the footer links /
+footer a {
+color: rgb(0, 0, 0);
+display: flex;
+justify-content:center ;
+
+text-decoration: none;
+}
+
+/ Style the footer background */
+.footer-bg {
+    background-color: #d9d9d9;
+    padding: 20px;
+    margin-left: 31%;
+}
+
+a{
+    margin-left:7%;
+}
+
+
+
+
+
+
+
